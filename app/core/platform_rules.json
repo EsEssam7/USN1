@@ -1,0 +1,255 @@
+{
+  "x": {
+    "name": "X",
+    "min_length": 4,
+    "max_length": 15,
+    "allowed_chars": "A-Za-z0-9_",
+    "must_start_with_letter": false,
+    "forbidden_edges": [],
+    "forbidden_sequences": [],
+    "case_sensitive": false,
+    "reserved_words": [
+      "admin",
+      "support",
+      "twitter",
+      "x"
+    ],
+    "profile_url": "https://x.com/{username}",
+    "soft_404_markers": [
+      "this account doesn't exist"
+    ],
+    "last_verified": "verified 2026-10-19 (secondary sources only; confirm on the official help page)"
+  },
+  "discord": {
+    "name": "Discord",
+    "min_length": 2,
+    "max_length": 32,
+    "allowed_chars": "a-z0-9_.",
+    "must_start_with_letter": false,
+    "forbidden_edges": [
+      "."
+    ],
+    "forbidden_sequences": [
+      ".."
+    ],
+    "case_sensitive": false,
+    "reserved_words": [
+      "discord",
+      "everyone",
+      "here"
+    ],
+    "profile_url": null,
+    "soft_404_markers": [],
+    "last_verified": "verified 2026-10-19 (official Discord support page)"
+  },
+  "instagram": {
+    "name": "Instagram",
+    "min_length": 1,
+    "max_length": 30,
+    "allowed_chars": "A-Za-z0-9_.",
+    "must_start_with_letter": false,
+    "forbidden_edges": [
+      "."
+    ],
+    "forbidden_sequences": [
+      ".."
+    ],
+    "case_sensitive": false,
+    "reserved_words": [
+      "instagram",
+      "explore",
+      "accounts"
+    ],
+    "profile_url": "https://www.instagram.com/{username}/",
+    "soft_404_markers": [
+      "sorry, this page isn't available"
+    ],
+    "last_verified": "verified 2026-10-19 (secondary sources only; confirm on the official help page)"
+  },
+  "tiktok": {
+    "name": "TikTok",
+    "min_length": 2,
+    "max_length": 24,
+    "allowed_chars": "A-Za-z0-9_.",
+    "must_start_with_letter": false,
+    "forbidden_edges": [
+      "."
+    ],
+    "forbidden_sequences": [
+      ".."
+    ],
+    "case_sensitive": false,
+    "reserved_words": [
+      "tiktok",
+      "admin"
+    ],
+    "profile_url": "https://www.tiktok.com/@{username}",
+    "soft_404_markers": [
+      "couldn't find this account"
+    ],
+    "last_verified": "verified 2026-10-19 (secondary sources only; confirm on the official help page)"
+  },
+  "github": {
+    "name": "GitHub",
+    "min_length": 1,
+    "max_length": 39,
+    "allowed_chars": "A-Za-z0-9-",
+    "must_start_with_letter": false,
+    "forbidden_edges": [
+      "-"
+    ],
+    "forbidden_sequences": [
+      "--"
+    ],
+    "case_sensitive": false,
+    "reserved_words": [
+      "github",
+      "settings",
+      "login",
+      "orgs"
+    ],
+    "profile_url": "https://github.com/{username}",
+    "soft_404_markers": [],
+    "last_verified": "unverified"
+  },
+  "reddit": {
+    "name": "Reddit",
+    "min_length": 3,
+    "max_length": 20,
+    "allowed_chars": "A-Za-z0-9_-",
+    "must_start_with_letter": false,
+    "forbidden_edges": [],
+    "forbidden_sequences": [],
+    "case_sensitive": false,
+    "reserved_words": [
+      "reddit",
+      "admin"
+    ],
+    "profile_url": "https://www.reddit.com/user/{username}",
+    "soft_404_markers": [
+      "page not found"
+    ],
+    "last_verified": "unverified"
+  },
+  "telegram": {
+    "name": "Telegram",
+    "min_length": 5,
+    "max_length": 32,
+    "allowed_chars": "A-Za-z0-9_",
+    "must_start_with_letter": true,
+    "forbidden_edges": [
+      "_"
+    ],
+    "forbidden_sequences": [],
+    "case_sensitive": false,
+    "reserved_words": [
+      "telegram",
+      "botfather"
+    ],
+    "profile_url": "https://t.me/{username}",
+    "soft_404_markers": [
+      "if you have telegram"
+    ],
+    "last_verified": "verified 2026-10-19 (BotFather guidelines via n8n docs and a validator source)"
+  },
+  "youtube": {
+    "name": "YouTube",
+    "min_length": 3,
+    "max_length": 30,
+    "allowed_chars": "A-Za-z0-9_.-",
+    "must_start_with_letter": false,
+    "forbidden_edges": [
+      ".",
+      "-",
+      "_"
+    ],
+    "forbidden_sequences": [],
+    "case_sensitive": false,
+    "reserved_words": [
+      "youtube",
+      "google"
+    ],
+    "profile_url": "https://www.youtube.com/@{username}",
+    "soft_404_markers": [
+      "this page isn't available"
+    ],
+    "last_verified": "verified 2026-10-19 (secondary sources only; confirm on the official help page)"
+  },
+  "twitch": {
+    "name": "Twitch",
+    "min_length": 4,
+    "max_length": 25,
+    "allowed_chars": "A-Za-z0-9_",
+    "must_start_with_letter": false,
+    "forbidden_edges": [],
+    "forbidden_sequences": [],
+    "case_sensitive": false,
+    "reserved_words": [
+      "twitch"
+    ],
+    "profile_url": "https://www.twitch.tv/{username}",
+    "soft_404_markers": [
+      "sorry. unless you've got a time machine"
+    ],
+    "last_verified": "unverified"
+  },
+  "snapchat": {
+    "name": "Snapchat",
+    "min_length": 3,
+    "max_length": 15,
+    "allowed_chars": "A-Za-z0-9_.-",
+    "must_start_with_letter": false,
+    "forbidden_edges": [],
+    "forbidden_sequences": [],
+    "case_sensitive": false,
+    "reserved_words": [
+      "snapchat"
+    ],
+    "profile_url": "https://www.snapchat.com/add/{username}",
+    "soft_404_markers": [
+      "page not found"
+    ],
+    "last_verified": "unverified"
+  },
+  "pinterest": {
+    "name": "Pinterest",
+    "min_length": 3,
+    "max_length": 30,
+    "allowed_chars": "A-Za-z0-9_-",
+    "must_start_with_letter": false,
+    "forbidden_edges": [],
+    "forbidden_sequences": [],
+    "case_sensitive": false,
+    "reserved_words": [
+      "pinterest"
+    ],
+    "profile_url": "https://www.pinterest.com/{username}/",
+    "soft_404_markers": [
+      "page not found"
+    ],
+    "last_verified": "unverified"
+  },
+  "threads": {
+    "name": "Threads",
+    "min_length": 1,
+    "max_length": 30,
+    "allowed_chars": "A-Za-z0-9_.",
+    "must_start_with_letter": false,
+    "forbidden_edges": [
+      "."
+    ],
+    "forbidden_sequences": [
+      ".."
+    ],
+    "case_sensitive": false,
+    "reserved_words": [
+      "threads",
+      "instagram"
+    ],
+    "profile_url": "https://www.threads.net/@{username}",
+    "soft_404_markers": [
+      "sorry, this page isn't available"
+    ],
+    "last_verified": "unverified (uses Instagram handles; check Threads help)"
+  }
+}

@@ -1,0 +1,10 @@
+# One word per line. Matched against raw and leetspeak-normalized names.
+# Keep this list to clearly unwanted words; edit freely in Settings.
+fuck
+shit
+bitch
+sex
+porn
+nazi
+hitler
+kill

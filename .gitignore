@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Test and build output
+.pytest_cache/
+build/
+dist/
+*.spec.bak
+
+# Runtime data (created on the user's machine, never committed)
+data/
+usn.log
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

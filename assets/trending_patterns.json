@@ -1,0 +1,10 @@
+{
+  "note": "Curated and updated manually. Not live trend data.",
+  "patterns": [
+    {"pattern": "CVCV", "en": "Short pronounceable names, easy to say and remember.", "ar": "أسماء قصيرة وسهلة النطق والحفظ."},
+    {"pattern": "LLLD", "en": "Three letters and a digit, short and clean.", "ar": "تلات حروف ورقم، قصير ونضيف."},
+    {"pattern": "CVCVC", "en": "Five-letter syllable names, balanced and brandable.", "ar": "أسماء خماسية بمقاطع متوازنة وقابلة للتسويق."},
+    {"pattern": "LLLLL", "en": "Five letters, a common length on most platforms.", "ar": "خمس حروف، طول شائع على أغلب المنصات."},
+    {"pattern": "CVCVDD", "en": "Pronounceable base with a two-digit tail.", "ar": "اسم قابل للنطق مع رقمين في الآخر."}
+  ]
+}
